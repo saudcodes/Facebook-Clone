@@ -1,6 +1,24 @@
 .form-style {
-    background-color: green;
+
     display: flex;
     flex-direction: row;
+    border: none;
+}
 
+#form-input {
+    border: none;
+}
+
+#navbar-links {
+
+    position: relative;
+    left: 20vw;
+}
+
+.nav-link {
+    border-radius: 10px;
+}
+
+a.nav-link:hover {
+    background-color: rgba(167, 167, 170, 0.555);
 }
