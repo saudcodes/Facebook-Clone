@@ -21,3 +21,17 @@
 a.nav-link:hover {
     background-color: rgba(167, 167, 170, 0.555);
 }
+
+a.nav-link:active {
+
+    text-decoration: underline;
+    text-decoration-color: rgb(6, 129, 230);
+}
+
+.navbar {
+    position: fixed;
+}
+
+#fb-icon {
+    color: rgb(0, 89, 255);
+}
