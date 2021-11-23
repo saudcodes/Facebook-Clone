@@ -7,6 +7,7 @@
 
 #form-input {
     border: none;
+    background-color: rgba(221, 221, 221, 0.747);
 }
 
 #navbar-links {
@@ -30,6 +31,8 @@ a.nav-link:active {
 
 .navbar {
     position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #fb-icon {
