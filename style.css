@@ -46,15 +46,22 @@ a.nav-link:active {
 
 }
 
-.left-sidebar a {
+.imp-links {
     flex-direction: column;
-    align-items: center;
+    text-align: left;
+    width: 250px;
+
+}
+
+.imp-links a {
+
     text-decoration: none;
     color: inherit;
     width: fit-content;
     margin-bottom: 20px;
+
 }
 
-.left-sidebar>a>i {
+.imp-links>a>i {
     margin-right: 8px;
 }
