@@ -42,18 +42,21 @@ a.nav-link:active {
 .left-sidebar {
     flex-direction: column;
     align-items: center;
-    position: sticky;
+
+    /* Fixed Sidebar (stay in place on scroll) */
 
 }
 
-.imp-links {
+.imp-links,
+.shortcuts {
     flex-direction: column;
     text-align: left;
-    width: 250px;
+    width: fit-content;
 
 }
 
-.imp-links a {
+.imp-links a,
+.shortcuts a {
 
     text-decoration: none;
     color: inherit;
