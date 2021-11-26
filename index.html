@@ -131,38 +131,121 @@
     </nav>
     <!-- Navbar endd -->
 
-
+    <!-- main 3 columns -->
     <div class="container pt-3" style="background-color: rgb(255, 255, 255);">
         <div class="row justify-content-evenly" style="background-color:rgb(255, 255, 255); ">
-
+            <!-- left sidebar -->
             <div class="col-3 d-flex left-sidebar" style="background-color:rgb(255, 255, 255); align-self: start;">
-                <div style="position: fixed; background-color:rgb(255, 255, 255);">
+                <div class="links-container">
                     <div class="imp-links d-flex" style="background-color: rgb(255, 255, 255);">
                         <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle"
                                 height="30" alt="" loading="lazy" /> Saud Aijaz</a>
-                        <a href="#"> <i class="fas fa-user-friends fa-lg friends-icon"></i> Friends </a>
-                        <a href="#"> <i class="fas fa-flag fa-lg pages-icon"></i> Pages </a>
-                        <a href="#"> <i class="fas fa-briefcase fa-lg jobs-icon"></i> Jobs </a>
-                        <a href="#"> <i class="fas fa-users fa-lg groups-icon"></i> Groups </a>
-                        <a href="#"> <i class="fas fa-store fa-lg marketplace-icon"></i> Marketplace </a>
-                        <a href="#"> <i class="fab fa-youtube fa-lg watch-icon"></i> Watch </a>
-                        <a href="#"> <i class="far fa-clock fa-lg memories-icon"></i> Memories </a>
+                        <a href="#" class="links"> <i class="fas fa-user-friends fa-lg friends-icon"></i> Friends
+                        </a>
+                        <a href="#" class="links"> <i class="fas fa-flag fa-lg pages-icon"></i> Pages </a>
+                        <a href="#" class="links"> <i class="fas fa-briefcase fa-lg jobs-icon"></i> Jobs </a>
+                        <a href="#" class="links"> <i class="fas fa-users fa-lg groups-icon"></i> Groups </a>
+                        <a href="#" class="links"> <i class="fas fa-store fa-lg marketplace-icon"></i> Marketplace </a>
+                        <a href="#" class="links"> <i class="fab fa-youtube fa-lg watch-icon"></i> Watch </a>
+                        <a href="#" class="links"> <i class="far fa-clock fa-lg memories-icon"></i> Memories </a>
                         <hr class="my-4">
                     </div>
                     <div class="shortcuts d-flex">
-                        <a href="#"><img src="https://source.unsplash.com/40x35/?nature,water
-                                " class="rounded" width="40" height="35" alt="" loading="lazy" /> Saud Aijaz</a>
-                        <a href="#"><img src="https://source.unsplash.com/40x35/?nature,water
-                                    " class="rounded" width="40" height="35" alt="" loading="lazy" /> Saud Aijaz</a>
-                        <a href="#"><img src="https://source.unsplash.com/40x35/?nature,water
+                        <p>My Shortcuts</p>
+                        <a href="#" class="links"><img src="https://source.unsplash.com/40x35/?nature,water
+                                " class="rounded " width="40" height="35" alt="" loading="lazy" /> Saud Aijaz</a>
+                        <a href="#" class="links"><img src="https://source.unsplash.com/40x35/?nature,water
+                                    " class="rounded " width="40" height="35" alt="" loading="lazy" /> Saud
+                            Aijaz</a>
+                        <a href="#" class="links"><img src="https://source.unsplash.com/40x35/?nature,water
                                         " class="rounded" width="40" height="35" alt="" loading="lazy" /> Saud
                             Aijaz</a>
                     </div>
                 </div>
             </div>
+            <!-- left sidebar end -->
+            <!-- timeline -->
+            <div class="col-6 d-flex main-content" style="background-color: green;">
+                <div class="d-flex flex-column justify-content-top w-100 mx-auto"
+                    style="padding-top: 10px; max-width: 680px;">
+                    <!-- stories -->
+                    <div class="d-flex justify-content-between  position-relative my-1" style="background-color: blue;">
 
-            <div class=" col-6 d-flex main-content" style="background-color: green;">
-                dsfafs
+                        <!-- story 1 -->
+                        <div class="mx-1 bg-white rounded story" type="button"
+                            style="background-color: blue;width: 6em; height: 190px;">
+                            <img src="https://source.unsplash.com/collection/happy-people" alt="story"
+                                class="card-img-top" style="min-height: 125px; object-fit: cover;">
+                            <div class="d-flex align-items-center justify-content-center position-relative"
+                                style="min-height: 70px;">
+                                <p class="mb-0 text-centre fs-7 fw-bold">Create Story</p>
+                                <div class="position-absolute top-0 start-50 translate-middle">
+                                    <i class="fas fa-plus-circle fs-3 text-primary bg-white p-1 rounded-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- story 2 -->
+                        <div class="rounded mx-1 story" type="button" style="width:6em; height:190px">
+                            <img src="https://source.unsplash.com/collection/happy-people" alt="stry 2"
+                                class="card-img-top rounded" style="min-height: 190px; object-fit: cover;">
+                        </div>
+                        <!-- story 3 -->
+                        <div class="rounded mx-1 story" type="button" style="width:6em; height:190px">
+                            <img src="https://source.unsplash.com/random/1" alt="stry 2" class="card-img-top rounded"
+                                style="min-height: 190px; object-fit: cover;">
+                        </div>
+                        <!-- story 4 -->
+                        <div class="rounded mx-1 story" type="button" style="width:6em; height:190px">
+                            <img src="https://source.unsplash.com/random/2" alt="stry 2" class="card-img-top rounded"
+                                style="min-height: 190px; object-fit: cover;">
+                        </div>
+                        <!-- story 5 -->
+                        <div class="rounded mx-1 story d-none d-lg-block" type="button" style="width:6em; height:190px">
+                            <img src="https://source.unsplash.com/random/3" alt="stry 2" class="card-img-top rounded"
+                                style="min-height: 190px; object-fit: cover;">
+                        </div>
+                        <!-- story 5 -->
+                        <div class="rounded mx-1 story d-none d-lg-block" type="button" style="width:6em; height:190px">
+                            <img src="https://source.unsplash.com/random/3" alt="stry 2" class="card-img-top rounded"
+                                style="min-height: 190px; object-fit: cover;">
+                        </div>
+                        <!-- slider arrow -->
+                        <div class="position-absolute top-50 start-100 translate-middle d-one d-lg-block">
+                            <i class="fas fa-arrow-right p-3 border text-muted bg-white rounded-circle"></i>
+                        </div>
+                    </div>
+                    <!-- stories end -->
+                    <div class="card mt-1 d-flex ">
+                        <div class="card-body " style="  height: 150px;">
+                            <div class="d-flex flex-row">
+                                <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                                        class="rounded-circle mx-2" height="35" alt="" loading="lazy" /></a>
+                                <form class="form-inline form-style rounded-pill  col-10">
+                                    <input id="form-input"
+                                        class="w-100 form-control rounded-pill form-control-md  mr-sm-2 me-auto mb-2 mb-lg-0"
+                                        type="search" placeholder="Search" aria-label="Search">
+                                </form>
+
+                            </div>
+                            <hr class="mx-6">
+                            <div class="d-flex flex-row justify-content-evenly">
+                                <a href="#" class="links py-2 px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
+                                    Memories
+                                </a>
+                                <a href="#" class="links py-2  px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
+                                    Memories
+                                </a>
+                                <a href="#" class="links  py-2 px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
+                                    Memories
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
             </div>
             <div class="col-3 d-flex right-sidebar" style="background-color: rgb(250, 250, 201); height: 100vh;">
                 One of three columns
