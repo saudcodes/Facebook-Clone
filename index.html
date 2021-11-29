@@ -165,11 +165,11 @@
             </div>
             <!-- left sidebar end -->
             <!-- timeline -->
-            <div class="col-6 d-flex main-content" style="background-color: green;">
+            <div class="col-6 d-flex main-content" style="backgound-color: green;">
                 <div class="d-flex flex-column justify-content-top w-100 mx-auto"
                     style="padding-top: 10px; max-width: 680px;">
-                    <!-- stories -->
-                    <div class="d-flex justify-content-between  position-relative my-1" style="background-color: blue;">
+                    <!-- stories add light shadow rto story boxes -->
+                    <div class="d-flex justify-content-between  position-relative my-1" style="backgound-color: blue;">
 
                         <!-- story 1 -->
                         <div class="mx-1 bg-white rounded story" type="button"
@@ -210,37 +210,93 @@
                                 style="min-height: 190px; object-fit: cover;">
                         </div>
                         <!-- slider arrow -->
-                        <div class="position-absolute top-50 start-100 translate-middle d-one d-lg-block">
+                        <div class="position-absolute top-50 start-100 translate-middle d-none d-lg-block">
                             <i class="fas fa-arrow-right p-3 border text-muted bg-white rounded-circle"></i>
                         </div>
                     </div>
                     <!-- stories end -->
-                    <div class="card mt-1 d-flex ">
-                        <div class="card-body " style="  height: 150px;">
-                            <div class="d-flex flex-row">
+                    <!-- Create posts -->
+                    <div class=" d-flex bg-white border rounded shadow p-2 mt-3 ">
+                        <div class=" d-flex flex-column w-100">
+
+                            <div class="d-flex flex-lg-row">
                                 <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
                                         class="rounded-circle mx-2" height="35" alt="" loading="lazy" /></a>
-                                <form class="form-inline form-style rounded-pill  col-10">
+                                <form class="form-inline form-style rounded-pill w-100">
                                     <input id="form-input"
                                         class="w-100 form-control rounded-pill form-control-md  mr-sm-2 me-auto mb-2 mb-lg-0"
-                                        type="search" placeholder="Search" aria-label="Search">
+                                        type="search" placeholder="Whats on Your mind?" aria-label="Search">
                                 </form>
-
                             </div>
-                            <hr class="mx-6">
+
+                            <hr>
                             <div class="d-flex flex-row justify-content-evenly">
-                                <a href="#" class="links py-2 px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
+                                <a href="#" class="links py-2 px-4"> <i class="fas fa-video"></i>
+
+                                </a>
+                                <a href="#" class="links py-2  px-4"><i class="fas fa-video"></i>
                                     Memories
                                 </a>
-                                <a href="#" class="links py-2  px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
-                                    Memories
-                                </a>
-                                <a href="#" class="links  py-2 px-4"> <i class="far fa-clock fa-lg memories-icon"></i>
+                                <a href="#" class="links  py-2 px-4 d-none d-lg-block"> <i
+                                        class="far fa-clock fa-lg memories-icon"></i>
                                     Memories
                                 </a>
                             </div>
                         </div>
                     </div>
+                    <!-- Craete room -->
+                    <div class="bg-white border rounded shadow p-2 mt-3">
+
+                        <div class="d-flex flex-row flex-lg-row" style="backgound-color: blue;">
+                            <div class="button d-flex flex-row  d-md-block pe-2">
+                                <button type="button" class="btn btn-outline-primary rounded-pill"
+                                    data-mdb-ripple-color="dark">
+                                    <i class="fas fa-video fa-lg"></i>
+                                    Create Room
+                                </button>
+                            </div>
+
+                            <div class="avatar d-flex flex-row">
+                                <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                                        class="rounded-circle mx-1" height="35" alt="" loading="lazy" /></a>
+                                <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                                        class="rounded-circle mx-1" height="35" alt="" loading="lazy" /></a>
+
+                                <a href="#" class="d-none d-sm-block"><img
+                                        src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle mx-1"
+                                        height="35" alt="" loading="lazy" />
+                                </a>
+                                <a href="#" class="d-sm-none d-md-block"><img
+                                        src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle mx-1"
+                                        height="35" alt="" loading="lazy" /></a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Posts -->
+                    <div class="bg-white p-4 rounded shadow mt-3">
+                        <!-- autthor -->
+                        <div class="d-flex justify-content-between" style="background-color: chartreuse;">
+
+                            <div class="d-flex flex-row">
+                                <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle mx-1"
+                                    height="35" alt="" loading="lazy" />
+
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="m-0 fw-bold">john</p>
+                                <span class="text-muted m-0 fs-8">july 17 at</span>
+                            </div>
+                            <i class="fas fa-ellipsis-h " type="button" data-mdb-toggle="dropdown"
+                                aria-expanded="false"></i>
+                        </div>
+
+
+
+                    </div>
+
 
 
                 </div>
