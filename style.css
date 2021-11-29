@@ -125,6 +125,10 @@ a.links {
     color: rgb(53, 161, 255);
 }
 
+.story {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
 .story:hover {
     opacity: 0.8;
     background-color: black;
