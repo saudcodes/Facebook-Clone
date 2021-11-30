@@ -134,3 +134,7 @@ a.links {
     background-color: black;
     color: inherit;
 }
+
+.emoji {
+    color: rgb(255, 235, 53);
+}
