@@ -230,11 +230,11 @@
                             </div>
 
                             <hr>
-                            <div class="d-flex flex-row justify-content-evenly">
-                                <a href="#" class="links py-2 px-4"> <i class="fas fa-video"></i>
+                            <div class="d-flex flex-row justify-content-evenly" type="button">
+                                <a href="#" class="links py-2 px-4"> <i class="fas fa-video text-danger"></i>
                                     Live Video
                                 </a>
-                                <a href="#" class="links py-2  px-4"><i class="fas fa-photo-video"></i>
+                                <a href="#" class="links py-2  px-4"><i class="fas fa-photo-video text-success"></i>
                                     Photo/video
                                 </a>
                                 <a href="#" class="links  py-2 px-4 d-none d-lg-block"> <i
@@ -313,7 +313,41 @@
 
 
                             </p>
-                            <img src="https://source.unsplash.com/random/3" alt="post img" class="img-fluid">
+                            <img src="https://source.unsplash.com/1400x600/?cars" alt="post img" class="img-fluid">
+                        </div>
+                        <!-- likes n comment -->
+                        <div class="position-relative mt-3 post-comment">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item border-0">
+                                    <!-- comment collapse -->
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <div class="accordion-button collapsed d-flex justify-content-end" type="button"
+                                            data-mdb-toggle="collapse" data-mdb-target="#post1" aria-expanded="true"
+                                            aria-controls="post1">
+                                            <p class="m-0">2 comments</p>
+                                        </div>
+                                    </h2>
+                                    <!-- comment expand -->
+                                    <div id="post1" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                        data-mdb-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <!-- comment 1 -->
+                                            <div class="d-flex align-items-center my-1">
+                                                <!-- avatar -->
+                                                <img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                                                    class="rounded-circle mx-1" height="35" alt="" loading="lazy" /></a>
+                                                <!-- comment te`xt -->
+                                                <div class="p-3 rounded w-100 comment=input">
+
+                                                </div>
+                                            </div>
+                                            <!-- comment2 -->
+                                            <!-- create comment -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
 
