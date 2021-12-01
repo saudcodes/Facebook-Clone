@@ -138,3 +138,8 @@ a.links {
 .emoji {
     color: rgb(255, 235, 53);
 }
+
+.commentbg,
+.write-comment {
+    background-color: rgba(211, 211, 211, 0.938);
+}
