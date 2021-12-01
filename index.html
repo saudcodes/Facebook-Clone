@@ -259,15 +259,15 @@
                             <div class="avatar d-flex flex-row">
                                 <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
                                         class="rounded-circle mx-1" height="35" alt="" loading="lazy" /></a>
-                                <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+                                <a href="#"><img src="https://mdbootstrap.com/img/new/avatars/4.jpg"
                                         class="rounded-circle mx-1" height="35" alt="" loading="lazy" /></a>
 
                                 <a href="#" class="d-none d-sm-block"><img
-                                        src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle mx-1"
+                                        src="https://mdbootstrap.com/img/new/avatars/5.jpg" class="rounded-circle mx-1"
                                         height="35" alt="" loading="lazy" />
                                 </a>
                                 <a href="#" class="d-sm-none d-md-block"><img
-                                        src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle mx-1"
+                                        src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="rounded-circle mx-1"
                                         height="35" alt="" loading="lazy" /></a>
 
 
@@ -313,10 +313,22 @@
 
 
                             </p>
-                            <img src="https://source.unsplash.com/1400x600/?cars" alt="post img" class="img-fluid">
+                            <img src="https://source.unsplash.com/1400x800/?cars" alt="post img" class="img-fluid">
                         </div>
                         <!-- likes n comment -->
                         <div class="position-relative mt-3 post-comment">
+                            <!-- LIKES  -->
+                            <div class="d-flex align-items-center posiiton-absolute top-0 start0"
+                                style="height: 50px; z-index: 5;">
+                                <div class="me-2">
+                                    <i class="fas fa-thumbs-up text-primary"></i>
+                                    <i class="far fa-angry text-danger"></i>
+                                    <i class="fas fa-grin-squint text-warning"></i>
+                                </div>
+                                <p class="m-0 text-muted fs-7">Tom, Mike and 3 others</p>
+                            </div>
+
+                            <!-- COMMENTS  -->
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item border-0">
                                     <!-- comment collapse -->
@@ -327,6 +339,25 @@
                                             <p class="m-0">2 comments</p>
                                         </div>
                                     </h2>
+                                    <!-- comment/likes bar -->
+                                    <div class="d-flex justify-content-around">
+                                        <!-- likes  -->
+                                        <div class="d-flex align-items-center justify-content-center dropdown-item rounded text-muted
+                                        p-1 " type="button">
+                                            <i class="fas fa-thumbs-up me-3"></i>
+                                            <p class="m-0">Like</p>
+                                        </div>
+
+                                        <!-- comments  -->
+                                        <div class="d-flex align-items-center justify-content-center dropdown-item rounded text-muted
+                                        p-1 " type="button" data-mdb-toggle="collapse" data-mdb-target="#post1"
+                                            aria-expanded="true" aria-controls="post1">
+                                            <i class="fas fa-thumbs-up me-3"></i>
+                                            <p class="m-0">comments</p>
+                                        </div>
+
+
+                                    </div>
                                     <!-- comment expand -->
                                     <div id="post1" class="accordion-collapse collapse " aria-labelledby="headingOne"
                                         data-mdb-parent="#accordionExample">
@@ -386,7 +417,7 @@
                                                 </div>
                                                 <!-- form input  -->
                                                 <input type="text"
-                                                    class="form-control border-0 rounded-pill bg-gray write-comment"
+                                                    class="form-control border-0 rounded-pill write-comment"
                                                     placeholder="Write a Comment">
                                             </form>
                                         </div>

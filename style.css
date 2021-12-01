@@ -139,7 +139,27 @@ a.links {
     color: rgb(255, 235, 53);
 }
 
-.commentbg,
-.write-comment {
+.commentbg {
     background-color: rgba(211, 211, 211, 0.938);
+}
+
+.write-comment {
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+.post-comment .accordion-button:after {
+    margin-left: 0 !important;
+    display: none !important;
+}
+
+.post-comment .accordion-button:hover {
+    background: transparent !important;
+    border-color: transparent !important;
+
+}
+
+.post-comment .accordion-button:not(.collapsed) {
+    background: transparent !important;
+    box-shadow: none !important;
+
 }
