@@ -165,10 +165,16 @@ a.links {
 }
 
 .lbar {
-    max-width: 360px;
+    max-width: 310px;
     width: 100%;
     z-index: 4;
-    padding-top: 56px;
+    padding-top: none;
     left: initial !important;
-    background-color: blue;
+
+    display: inline-block;
+    flex-direction: row;
+}
+
+.dropdown-item:active {
+    background-color: #d5d5d5 !important;
 }
