@@ -163,3 +163,12 @@ a.links {
     box-shadow: none !important;
 
 }
+
+.lbar {
+    max-width: 360px;
+    width: 100%;
+    z-index: 4;
+    padding-top: 56px;
+    left: initial !important;
+    background-color: blue;
+}
