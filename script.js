@@ -1,8 +1,8 @@
 let commentbox = document.querySelector("#commentbox")
 let addComment = document.querySelector("#addcomment") 
 
-addComment.addEventListener("submit", function() {
+
     let newComment = document.createElement("div")
+   newComment.classList.add("bg-primary")
     newComment.textContent = "testing"
     commentbox.appendChild(newComment)
-})
